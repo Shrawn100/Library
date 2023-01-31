@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="borderOuter hidden">
+      <div class="border">
+        <h2>Add A New Book</h2>
+        <form action="" method="post">
+          <div class="formRow">
+            <label for="title"></label>
+            <input
+              class="input"
+              type="text"
+              id="title"
+              name="title"
+              placeholder="Title"
+            />
+          </div>
+          <div class="formRow">
+            <label for="author"></label>
+            <input
+              class="input"
+              type="text"
+              id="author"
+              name="author"
+              placeholder="Author"
+            />
+          </div>
+          <div class="formRow">
+            <label for="pages"></label>
+            <input
+              class="input"
+              type="number"
+              id="pages"
+              name="pages"
+              placeholder="0"
+            />
+          </div>
+
+          <div class="formRow">
+            <label for="read"></label>
+            <span>I've read the book</span>
+            <input
+              class="input"
+              type="checkbox"
+              name="read"
+              id="read"
+              value="have-read"
+            />
+          </div>
+
+          <div class="formRow">
+            <button type="button" class="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="sidebar">
+        <div class="dashboard">
+          <p><span class="material-icons"> dashboard </span>Dashboard</p>
+        </div>
+
+        <div class="options">
+          <div class="home">
+            <a href="#">
+              <span class="material-icons">home</span>
+              Home</a
+            >
+          </div>
+          <div class="profile">
+            <a href="#">
+              <span class="material-icons">account_circle</span>
+              Profile</a
+            >
+          </div>
+          <div class="messages">
+            <a href="#">
+              <span class="material-icons">chat</span>
+              Messages</a
+            >
+          </div>
+          <div class="history">
+            <a href="#">
+              <span class="material-icons">history</span>
+              History</a
+            >
+          </div>
+          <div class="tasks">
+            <a href="#">
+              <span class="material-icons">task</span>
+              Tasks</a
+            >
+          </div>
+          <div class="communities">
+            <a href="#">
+              <span class="material-icons">groups</span>
+              Communities</a
+            >
+          </div>
+        </div>
+
+        <div class="advOptions">
+          <div class="settings">
+            <a href="#">
+              <span class="material-icons">settings</span>
+              Settings</a
+            >
+          </div>
+          <div class="support">
+            <a href="#">
+              <span class="material-icons">support</span>
+              Support</a
+            >
+          </div>
+          <div class="privacy">
+            <a href="#">
+              <span class="material-icons">lock</span>
+              Privacy</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="header">
+        <div class="header-top-half">
+          <div class="left-side-search">
+            <label for="search"
+              ><span class="material-icons"> search</span>
+            </label>
+            <input
+              type="search"
+              id="search"
+              name="search"
+              placeholder="Search..."
+            />
+          </div>
+
+          <div class="right-side">
+            <a href="#" class="bell"
+              ><span class="material-icons"> notifications </span></a
+            >
+            <div class="icon">
+              <img src="./astronaut.avif" alt="astronaut" />
+            </div>
+            <div class="name">Shrawn Chhetri</div>
+          </div>
+        </div>
+
+        <div class="header-bot-half">
+          <div class="bigger-icon">
+            <img src="./astronaut.avif" alt="astronaut" />
+          </div>
+          <p class="hello">Hi there,<br />Shrawn Chhetri (@Shrawn)</p>
+          <div class="buttons">
+            <button class="button" id="new">New</button>
+            <button class="button">Upload</button>
+            <button class="button">Share</button>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="projects">
+          <p class="yProjects">Your Book Library</p>
+
+          <div class="article">
+            
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
